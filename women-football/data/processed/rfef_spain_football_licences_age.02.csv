@@ -1,0 +1,370 @@
+country,season,sport,gender,age_group,registered_players,metric_name,source_name,source_url,source_file,quality_flag,age_label,notes
+Spain,2013-14,football,female,aficionado,11360,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,aficionado,
+Spain,2013-14,football,female,alevin,2572,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,alevin,
+Spain,2013-14,football,female,benjamin,1407,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,benjamin,
+Spain,2013-14,football,female,cadete,4408,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,cadete,
+Spain,2013-14,football,female,debutante,1507,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,debutante,
+Spain,2013-14,football,female,infantil,3477,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,infantil,
+Spain,2013-14,football,female,juvenil,5604,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,juvenil,
+Spain,2013-14,football,female,prebenjamin,951,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,prebenjamin,
+Spain,2013-14,football,female,profesional,28,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,profesional,
+Spain,2013-14,football,male,aficionado,124080,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,aficionado,
+Spain,2013-14,football,male,alevin,114073,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,alevin,
+Spain,2013-14,football,male,benjamin,87821,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,benjamin,
+Spain,2013-14,football,male,cadete,94988,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,cadete,
+Spain,2013-14,football,male,debutante,4220,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,debutante,
+Spain,2013-14,football,male,infantil,104353,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,infantil,
+Spain,2013-14,football,male,juvenil,97411,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,juvenil,
+Spain,2013-14,football,male,prebenjamin,53364,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,prebenjamin,
+Spain,2013-14,football,male,profesional,2503,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,profesional,
+Spain,2013-14,futsal,female,aficionado,4196,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,aficionado,
+Spain,2013-14,futsal,female,alevin,678,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,alevin,
+Spain,2013-14,futsal,female,benjamin,218,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,benjamin,
+Spain,2013-14,futsal,female,cadete,1661,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,cadete,
+Spain,2013-14,futsal,female,debutante,20,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,debutante,
+Spain,2013-14,futsal,female,infantil,1291,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,infantil,
+Spain,2013-14,futsal,female,juvenil,1387,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,juvenil,
+Spain,2013-14,futsal,female,prebenjamin,117,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,prebenjamin,
+Spain,2013-14,futsal,female,profesional,3,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,profesional,
+Spain,2013-14,futsal,male,aficionado,21906,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,aficionado,
+Spain,2013-14,futsal,male,alevin,11966,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,alevin,
+Spain,2013-14,futsal,male,benjamin,12091,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,benjamin,
+Spain,2013-14,futsal,male,cadete,10674,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,cadete,
+Spain,2013-14,futsal,male,debutante,128,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,debutante,
+Spain,2013-14,futsal,male,infantil,10308,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,infantil,
+Spain,2013-14,futsal,male,juvenil,9898,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,juvenil,
+Spain,2013-14,futsal,male,prebenjamin,9403,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,prebenjamin,
+Spain,2013-14,futsal,male,profesional,157,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2013-2014.pdf,confirmed,profesional,
+Spain,2014-15,football,female,aficionado,10871,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,aficionado,
+Spain,2014-15,football,female,alevin,2594,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,alevin,
+Spain,2014-15,football,female,benjamin,1611,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,benjamin,
+Spain,2014-15,football,female,cadete,4907,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,cadete,
+Spain,2014-15,football,female,debutante,37,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,debutante,
+Spain,2014-15,football,female,infantil,3676,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,infantil,
+Spain,2014-15,football,female,juvenil,5529,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,juvenil,
+Spain,2014-15,football,female,prebenjamin,631,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,prebenjamin,
+Spain,2014-15,football,female,profesional,48,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,profesional,
+Spain,2014-15,football,male,aficionado,122042,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,aficionado,
+Spain,2014-15,football,male,alevin,117995,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,alevin,
+Spain,2014-15,football,male,benjamin,88300,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,benjamin,
+Spain,2014-15,football,male,cadete,101485,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,cadete,
+Spain,2014-15,football,male,debutante,4824,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,debutante,
+Spain,2014-15,football,male,infantil,108139,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,infantil,
+Spain,2014-15,football,male,juvenil,99018,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,juvenil,
+Spain,2014-15,football,male,prebenjamin,56470,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,prebenjamin,
+Spain,2014-15,football,male,profesional,2253,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,profesional,
+Spain,2014-15,futsal,female,aficionado,4432,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,aficionado,
+Spain,2014-15,futsal,female,alevin,572,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,alevin,
+Spain,2014-15,futsal,female,benjamin,227,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,benjamin,
+Spain,2014-15,futsal,female,cadete,1563,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,cadete,
+Spain,2014-15,futsal,female,debutante,1,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,debutante,
+Spain,2014-15,futsal,female,infantil,1277,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,infantil,
+Spain,2014-15,futsal,female,juvenil,1595,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,juvenil,
+Spain,2014-15,futsal,female,prebenjamin,146,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,prebenjamin,
+Spain,2014-15,futsal,female,profesional,8,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,profesional,
+Spain,2014-15,futsal,male,aficionado,20716,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,aficionado,
+Spain,2014-15,futsal,male,alevin,12623,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,alevin,
+Spain,2014-15,futsal,male,benjamin,13629,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,benjamin,
+Spain,2014-15,futsal,male,cadete,11109,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,cadete,
+Spain,2014-15,futsal,male,debutante,290,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,debutante,
+Spain,2014-15,futsal,male,infantil,11365,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,infantil,
+Spain,2014-15,futsal,male,juvenil,10848,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,juvenil,
+Spain,2014-15,futsal,male,prebenjamin,9078,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,prebenjamin,
+Spain,2014-15,futsal,male,profesional,163,licencias,RFEF Memoria de Actividades,https://www.rfef.es/es/rfef/publicaciones,licencias_2014-2015.pdf,confirmed,profesional,
+Spain,2015-16,football,female,aficionado,11178,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,aficionado,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,alevin,2974,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,alevin,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,benjamin,1695,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,benjamin,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,cadete,5323,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,cadete,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,debutante,89,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,debutante,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,infantil,3947,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,infantil,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,juvenil,5819,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,juvenil,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,prebenjamin,743,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,prebenjamin,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,female,profesional,63,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,profesional,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,aficionado,121215,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,aficionado,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,alevin,117754,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,alevin,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,benjamin,93116,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,benjamin,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,cadete,104815,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,cadete,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,debutante,5414,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,debutante,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,infantil,112382,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,infantil,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,juvenil,1392,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,juvenil,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,prebenjamin,57337,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,prebenjamin,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,profesional,2668,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,profesional,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,football,male,veterano,104283,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,veterano,Image-verified. Replaces prior PDF-parser entry.
+Spain,2015-16,futsal,female,aficionado,4642,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,aficionado,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,alevin,660,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,alevin,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,benjamin,214,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,benjamin,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,cadete,1474,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,cadete,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,debutante,1,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,debutante,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,infantil,1098,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,infantil,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,juvenil,1602,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,juvenil,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,prebenjamin,125,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,prebenjamin,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,female,profesional,20,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,profesional,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,aficionado,20125,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,aficionado,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,alevin,11348,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,alevin,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,benjamin,13907,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,benjamin,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,cadete,11203,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,cadete,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,debutante,279,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,debutante,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,infantil,11425,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,infantil,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,juvenil,11534,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,juvenil,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,prebenjamin,8998,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,prebenjamin,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2015-16,futsal,male,profesional,172,licencias,RFEF Memoria Anual 2016,,rfef_memoria_2016.pdf,confirmed,profesional,Image-verified. Source arithmetic error in futsal female total (+-20); values kept as read.
+Spain,2016-17,football,female,aficionado,11746,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,aficionado,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,alevin,6312,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,alevin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,benjamin,3810,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,benjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,cadete,5679,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,cadete,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,debutante,88,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,debutante,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,infantil,5211,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,infantil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,juvenil,6457,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,juvenil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,prebenjamin,928,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,prebenjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,female,profesional,123,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,profesional,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,aficionado,123984,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,aficionado,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,alevin,130741,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,alevin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,benjamin,105411,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,benjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,cadete,105976,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,cadete,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,debutante,6546,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,debutante,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,infantil,126997,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,infantil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,juvenil,1454,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,juvenil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,prebenjamin,54978,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,prebenjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,profesional,3608,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,profesional,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,football,male,veterano,106123,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,veterano,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,aficionado,4573,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,aficionado,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,alevin,2055,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,alevin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,benjamin,2171,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,benjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,cadete,1703,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,cadete,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,debutante,13,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,debutante,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,infantil,1482,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,infantil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,juvenil,1690,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,juvenil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,prebenjamin,161,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,prebenjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,female,profesional,17,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,profesional,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,aficionado,22232,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,aficionado,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,alevin,15135,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,alevin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,benjamin,17466,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,benjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,cadete,12582,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,cadete,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,debutante,871,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,debutante,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,infantil,12680,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,infantil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,juvenil,12432,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,juvenil,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,prebenjamin,10114,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,prebenjamin,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2016-17,futsal,male,profesional,256,licencias,RFEF Memoria Anual 2017,,rfef_memoria_2017.pdf,confirmed,profesional,Image-verified. Corrects prior hard-coded gender splits.
+Spain,2017-18,football,female,aficionado,12136,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,aficionado,Image-verified.
+Spain,2017-18,football,female,alevin,6784,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,alevin,Image-verified.
+Spain,2017-18,football,female,benjamin,3990,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,benjamin,Image-verified.
+Spain,2017-18,football,female,cadete,5727,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,cadete,Image-verified.
+Spain,2017-18,football,female,debutante,109,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,debutante,Image-verified.
+Spain,2017-18,football,female,infantil,5648,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,infantil,Image-verified.
+Spain,2017-18,football,female,juvenil,7018,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,juvenil,Image-verified.
+Spain,2017-18,football,female,prebenjamin,906,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,prebenjamin,Image-verified.
+Spain,2017-18,football,female,profesional,225,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,profesional,Image-verified.
+Spain,2017-18,football,male,aficionado,120391,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,aficionado,Image-verified.
+Spain,2017-18,football,male,alevin,133798,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,alevin,Image-verified.
+Spain,2017-18,football,male,benjamin,107866,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,benjamin,Image-verified.
+Spain,2017-18,football,male,cadete,110018,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,cadete,Image-verified.
+Spain,2017-18,football,male,debutante,6479,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,debutante,Image-verified.
+Spain,2017-18,football,male,infantil,127292,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,infantil,Image-verified.
+Spain,2017-18,football,male,juvenil,8918,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,juvenil,Image-verified.
+Spain,2017-18,football,male,prebenjamin,52521,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,prebenjamin,Image-verified.
+Spain,2017-18,football,male,profesional,4125,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,profesional,Image-verified.
+Spain,2017-18,football,male,veterano,109913,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,veterano,Image-verified.
+Spain,2017-18,futsal,female,aficionado,5015,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,aficionado,Image-verified.
+Spain,2017-18,futsal,female,alevin,2681,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,alevin,Image-verified.
+Spain,2017-18,futsal,female,benjamin,2690,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,benjamin,Image-verified.
+Spain,2017-18,futsal,female,cadete,1514,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,cadete,Image-verified.
+Spain,2017-18,futsal,female,debutante,36,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,debutante,Image-verified.
+Spain,2017-18,futsal,female,infantil,1683,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,infantil,Image-verified.
+Spain,2017-18,futsal,female,juvenil,1941,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,juvenil,Image-verified.
+Spain,2017-18,futsal,female,prebenjamin,239,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,prebenjamin,Image-verified.
+Spain,2017-18,futsal,female,profesional,30,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,profesional,Image-verified.
+Spain,2017-18,futsal,male,aficionado,23913,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,aficionado,Image-verified.
+Spain,2017-18,futsal,male,alevin,15427,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,alevin,Image-verified.
+Spain,2017-18,futsal,male,benjamin,17104,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,benjamin,Image-verified.
+Spain,2017-18,futsal,male,cadete,12993,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,cadete,Image-verified.
+Spain,2017-18,futsal,male,debutante,2209,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,debutante,Image-verified.
+Spain,2017-18,futsal,male,infantil,13677,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,infantil,Image-verified.
+Spain,2017-18,futsal,male,juvenil,13973,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,juvenil,Image-verified.
+Spain,2017-18,futsal,male,prebenjamin,11135,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,prebenjamin,Image-verified.
+Spain,2017-18,futsal,male,profesional,259,licencias,RFEF Memoria Anual 2018,,rfef_memoria_2018.pdf,confirmed,profesional,Image-verified.
+Spain,2018-19,football,female,aficionado,12718,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,aficionado,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,alevin,7852,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,alevin,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,benjamin,4602,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,benjamin,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,cadete,6453,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,cadete,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,debutante,107,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,debutante,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,infantil,6916,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,infantil,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,juvenil,7627,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,juvenil,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,prebenjamin,1063,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,prebenjamin,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,female,profesional,332,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,profesional,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,aficionado,118886,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,aficionado,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,alevin,139129,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,alevin,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,benjamin,107330,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,benjamin,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,cadete,115610,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,cadete,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,debutante,6541,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,debutante,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,infantil,130755,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,infantil,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,juvenil,111955,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,juvenil,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,prebenjamin,51812,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,prebenjamin,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,profesional,4756,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,profesional,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,football,male,veterano,9840,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,veterano,"Image-verified. Male label order: profesional,aficionado,veterano,juvenil,cadete,..."
+Spain,2018-19,futsal,female,aficionado,5375,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,aficionado,Image-verified.
+Spain,2018-19,futsal,female,alevin,2498,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,alevin,Image-verified.
+Spain,2018-19,futsal,female,benjamin,2283,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,benjamin,Image-verified.
+Spain,2018-19,futsal,female,cadete,1593,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,cadete,Image-verified.
+Spain,2018-19,futsal,female,debutante,46,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,debutante,Image-verified.
+Spain,2018-19,futsal,female,infantil,1893,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,infantil,Image-verified.
+Spain,2018-19,futsal,female,juvenil,1922,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,juvenil,Image-verified.
+Spain,2018-19,futsal,female,prebenjamin,284,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,prebenjamin,Image-verified.
+Spain,2018-19,futsal,female,profesional,40,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,profesional,Image-verified.
+Spain,2018-19,futsal,male,aficionado,24129,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,aficionado,Image-verified.
+Spain,2018-19,futsal,male,alevin,16482,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,alevin,Image-verified.
+Spain,2018-19,futsal,male,benjamin,17018,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,benjamin,Image-verified.
+Spain,2018-19,futsal,male,cadete,12673,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,cadete,Image-verified.
+Spain,2018-19,futsal,male,debutante,1992,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,debutante,Image-verified.
+Spain,2018-19,futsal,male,infantil,14646,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,infantil,Image-verified.
+Spain,2018-19,futsal,male,juvenil,13493,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,juvenil,Image-verified.
+Spain,2018-19,futsal,male,prebenjamin,12680,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,prebenjamin,Image-verified.
+Spain,2018-19,futsal,male,profesional,287,licencias,RFEF Memoria Anual 2019,,rfef_memoria_2019.pdf,confirmed,profesional,Image-verified.
+Spain,2019-20,football,female,aficionado,14129,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,aficionado,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,alevin,9290,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,alevin,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,benjamin,5175,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,benjamin,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,cadete,7390,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,cadete,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,debutante,131,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,debutante,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,infantil,8540,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,infantil,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,juvenil,8088,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,juvenil,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,prebenjamin,1177,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,prebenjamin,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,female,profesional,670,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,profesional,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,aficionado,128020,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,aficionado,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,alevin,137137,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,alevin,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,benjamin,104374,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,benjamin,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,cadete,116283,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,cadete,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,debutante,6250,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,debutante,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,infantil,132202,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,infantil,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,juvenil,113176,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,juvenil,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,prebenjamin,48093,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,prebenjamin,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,profesional,5175,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,profesional,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,football,male,veterano,1325,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,estimated,veterano,"Image-verified rows; footer mis-reports column totals. Female prebenjamin/debutante summed from regional rows. Grand total 846,625 vs CSV 846,806 (+181 unattributed)."
+Spain,2019-20,futsal,female,aficionado,5639,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,aficionado,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,alevin,2553,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,alevin,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,benjamin,2509,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,benjamin,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,cadete,1816,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,cadete,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,debutante,75,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,debutante,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,infantil,2247,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,infantil,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,juvenil,1825,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,juvenil,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,prebenjamin,314,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,prebenjamin,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,female,profesional,54,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,profesional,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,aficionado,25890,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,aficionado,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,alevin,17075,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,alevin,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,benjamin,17675,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,benjamin,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,cadete,14236,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,cadete,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,debutante,1958,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,debutante,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,infantil,15886,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,infantil,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,juvenil,13723,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,juvenil,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,prebenjamin,12369,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,prebenjamin,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2019-20,futsal,male,profesional,247,licencias,RFEF Memoria Anual 2020,,rfef_memoria_2020.pdf,confirmed,profesional,"Image-verified. Grand total 136,091 confirmed vs CSV."
+Spain,2020-21,football,female,aficionado,13385,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,aficionado,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,alevin,6168,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,alevin,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,benjamin,3095,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,benjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,cadete,7183,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,cadete,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,debutante,91,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,debutante,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,infantil,7575,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,infantil,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,juvenil,7790,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,juvenil,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,prebenjamin,860,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,prebenjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,female,profesional,866,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,profesional,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,aficionado,101388,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,aficionado,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,alevin,103160,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,alevin,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,benjamin,73131,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,benjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,cadete,100387,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,cadete,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,debutante,4490,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,debutante,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,infantil,108416,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,infantil,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,juvenil,107698,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,juvenil,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,prebenjamin,32752,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,prebenjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,profesional,7543,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,profesional,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,football,male,veterano,926,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,veterano,Image-verified. Replaces PDF-parser entry.
+Spain,2020-21,futsal,female,aficionado,4933,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,aficionado,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,alevin,853,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,alevin,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,benjamin,631,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,benjamin,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,cadete,1093,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,cadete,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,debutante,31,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,debutante,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,infantil,1037,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,infantil,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,juvenil,1539,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,juvenil,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,prebenjamin,161,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,prebenjamin,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,female,profesional,113,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,profesional,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,aficionado,20386,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,aficionado,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,alevin,7642,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,alevin,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,benjamin,8111,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,benjamin,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,cadete,9232,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,cadete,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,debutante,576,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,debutante,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,infantil,8723,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,infantil,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,juvenil,11929,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,juvenil,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,prebenjamin,5092,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,prebenjamin,"Image-verified. Grand total 82,470 confirmed."
+Spain,2020-21,futsal,male,profesional,388,licencias,RFEF Memoria Anual 2021,,rfef_memoria_2021.pdf,confirmed,profesional,"Image-verified. Grand total 82,470 confirmed."
+Spain,2021-22,football,female,aficionado,16283,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,aficionado,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,alevin,9807,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,alevin,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,benjamin,4657,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,benjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,cadete,9398,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,cadete,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,debutante,282,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,debutante,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,infantil,10794,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,infantil,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,juvenil,8950,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,juvenil,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,prebenjamin,1338,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,prebenjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,female,profesional,984,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,profesional,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,aficionado,143122,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,aficionado,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,alevin,129548,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,alevin,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,benjamin,92400,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,benjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,cadete,119881,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,cadete,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,debutante,10126,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,debutante,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,infantil,135164,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,infantil,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,juvenil,122373,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,juvenil,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,prebenjamin,47471,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,prebenjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,profesional,9802,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,profesional,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,football,male,veterano,1149,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,veterano,Image-verified. Replaces PDF-parser entry.
+Spain,2021-22,futsal,female,aficionado,6118,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,aficionado,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,alevin,1850,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,alevin,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,benjamin,1285,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,benjamin,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,cadete,1575,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,cadete,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,debutante,111,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,debutante,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,infantil,2263,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,infantil,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,juvenil,1819,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,juvenil,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,prebenjamin,359,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,prebenjamin,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,female,profesional,182,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,profesional,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,aficionado,30531,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,aficionado,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,alevin,13013,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,alevin,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,benjamin,13296,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,benjamin,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,cadete,13272,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,cadete,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,debutante,2660,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,debutante,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,infantil,15567,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,infantil,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,juvenil,14673,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,juvenil,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,prebenjamin,10204,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,prebenjamin,"Image-verified. Grand total 129,186 confirmed."
+Spain,2021-22,futsal,male,profesional,408,licencias,RFEF Memoria Anual 2022,,rfef_memoria_2022.pdf,confirmed,profesional,"Image-verified. Grand total 129,186 confirmed."
+Spain,2022-23,football,female,aficionado,16681,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,aficionado,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,alevin,14535,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,alevin,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,benjamin,6923,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,benjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,cadete,12322,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,cadete,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,debutante,304,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,debutante,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,infantil,15576,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,infantil,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,juvenil,10288,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,juvenil,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,prebenjamin,1956,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,prebenjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,female,profesional,1133,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,profesional,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,aficionado,146392,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,aficionado,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,alevin,139953,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,alevin,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,benjamin,101216,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,benjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,cadete,133816,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,cadete,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,debutante,9954,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,debutante,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,infantil,149437,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,infantil,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,juvenil,128899,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,juvenil,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,prebenjamin,54557,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,prebenjamin,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,profesional,8397,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,profesional,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,football,male,veterano,498,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,veterano,Image-verified. Replaces PDF-parser entry.
+Spain,2022-23,futsal,female,aficionado,6301,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,aficionado,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,alevin,2808,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,alevin,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,base,124,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,base,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,benjamin,1667,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,benjamin,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,cadete,1720,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,cadete,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,debutante,131,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,debutante,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,infantil,2314,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,infantil,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,juvenil,1771,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,juvenil,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,prebenjamin,611,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,prebenjamin,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,female,profesional,196,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,profesional,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,aficionado,30792,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,aficionado,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,alevin,15596,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,alevin,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,benjamin,14891,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,benjamin,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,cadete,14440,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,cadete,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,debutante,3076,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,debutante,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,infantil,14740,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,infantil,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,juvenil,15407,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,juvenil,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,prebenjamin,12467,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,prebenjamin,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."
+Spain,2022-23,futsal,male,profesional,440,licencias,RFEF Memoria Anual 2023,,rfef_memoria_2023.pdf,confirmed,profesional,"Image-verified. Grand total 139,492 confirmed. New 'base' category appears in female futsal this season."

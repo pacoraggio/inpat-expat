@@ -1,0 +1,121 @@
+country,season,gender,age_group,registered_players,metric_name,source_report,source_file,source_page,quality_flag,notes
+Italy,2013-14,female,dilettantistica,13983,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,male,dilettantistica,379735,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,total,dilettantistica,393718,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,female,professionistica,0,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,male,professionistica,13062,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,total,professionistica,13062,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,female,sgs,7634,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,male,sgs,658872,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,total,sgs,666506,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,female,total,21617,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,male,total,1051669,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2013-14,total,total,1073286,tesserati,ReportCalcio 2015,Report_Calcio_2015_ITA_BASSA.pdf,38,confirmed,Different sub-category layout vs later reports; dilettantistica = calcio a 11 + calcio a 5 + attività mista
+Italy,2014-15,female,dilettantistica,14010,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,male,dilettantistica,374944,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,total,dilettantistica,388954,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,female,professionistica,0,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,male,professionistica,12211,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,total,professionistica,12211,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,female,sgs,8311,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,male,sgs,689979,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,total,sgs,698290,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,female,total,22321,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,male,total,1077134,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2014-15,total,total,1099455,tesserati,ReportCalcio 2016,Report_Calcio_2016_ITA_BASSA.pdf,35,confirmed,
+Italy,2015-16,female,dilettantistica,14051,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,male,dilettantistica,363102,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,total,dilettantistica,377153,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,female,professionistica,0,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,male,professionistica,11586,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,total,professionistica,11586,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,female,sgs,8826,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,male,sgs,664729,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,total,sgs,673555,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,female,total,22877,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,male,total,1039417,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2015-16,total,total,1062294,tesserati,ReportCalcio 2017,Report_Calcio_2017_ITA_BASSA.pdf,31,confirmed,
+Italy,2016-17,female,dilettantistica,14266,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,male,dilettantistica,356274,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,total,dilettantistica,370540,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,female,professionistica,0,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,male,professionistica,12319,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,total,professionistica,12319,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,female,sgs,9637,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,male,sgs,664328,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,total,sgs,673965,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,female,total,23903,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,male,total,1032921,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2016-17,total,total,1056824,tesserati,ReportCalcio 2018,Report_Calcio_2018_ITA_BASSA.pdf,36-37,confirmed,"SGS total corrected: PDF shows 637.965, correct value 673.965 (664.328+9.637=673.965)"
+Italy,2017-18,female,dilettantistica,13879,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,male,dilettantistica,351155,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,total,dilettantistica,365034,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,female,professionistica,0,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,male,professionistica,12125,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,total,professionistica,12125,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,female,sgs,12017,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,male,sgs,668514,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,total,sgs,680531,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,female,total,25896,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,male,total,1031794,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2017-18,total,total,1057690,tesserati,ReportCalcio 2019,Report_Calcio_2019_ITA_BASSA.pdf,41,confirmed,
+Italy,2018-19,female,dilettantistica,13252,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,male,dilettantistica,347294,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,total,dilettantistica,360546,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,female,professionistica,0,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,male,professionistica,12341,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,total,professionistica,12341,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,female,sgs,14392,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,male,sgs,675513,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,total,sgs,689905,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,female,total,27644,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,male,total,1035148,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2018-19,total,total,1062792,tesserati,ReportCalcio 2020,Report_Calcio_2020_ITA_ALTA.pdf,40,confirmed,
+Italy,2019-20,female,dilettantistica,14154,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,male,dilettantistica,345576,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,total,dilettantistica,359730,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,female,professionistica,0,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,male,professionistica,12755,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,total,professionistica,12755,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,female,sgs,17236,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,male,sgs,636767,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,total,sgs,654003,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,female,total,31390,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,male,total,995098,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2019-20,total,total,1026488,tesserati,ReportCalcio 2021,Report_Calcio_2021_ITA_ALTA.pdf,41,confirmed,
+Italy,2020-21,female,dilettantistica,12883,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,male,dilettantistica,324082,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,total,dilettantistica,336965,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,female,professionistica,0,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,male,professionistica,13289,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,total,professionistica,13289,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,female,sgs,14041,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,male,sgs,475759,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,total,sgs,489800,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,female,total,26924,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,male,total,813130,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2020-21,total,total,840054,tesserati,ReportCalcio 2022,Report_Calcio_2022_ITA_BASSA.pdf,41,confirmed,
+Italy,2021-22,female,dilettantistica,14420,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,male,dilettantistica,348382,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,total,dilettantistica,362802,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,female,professionistica,0,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,male,professionistica,13423,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,total,professionistica,13423,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,female,sgs,22132,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,male,sgs,650703,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,total,sgs,672835,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,female,total,36552,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,male,total,1012508,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2021-22,total,total,1049060,tesserati,ReportCalcio 2023,Report_Calcio_2023_ITA_ALTA.pdf,38,confirmed,
+Italy,2022-23,female,dilettantistica,13830,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,male,dilettantistica,354811,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,total,dilettantistica,368641,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,female,professionistica,887,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,male,professionistica,13728,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,total,professionistica,14615,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,female,sgs,27865,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,male,sgs,697077,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,total,sgs,724942,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,female,total,42582,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,male,total,1065616,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
+Italy,2022-23,total,total,1108198,tesserati,ReportCalcio 2024,Report_Calcio_2024_ITA_ALTA.pdf,45,confirmed,
