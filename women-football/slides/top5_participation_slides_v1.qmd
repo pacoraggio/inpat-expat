@@ -1,0 +1,402 @@
+---
+title: "Il Calcio Femminile nelle Top 5 Federazioni Europee"
+subtitle: "Un'analisi comparativa della partecipazione"
+author: "Inpat-Expat"
+date: "2026"
+lang: it
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    transition: slide
+    self-contained: true
+    footer: "Inpat-Expat · Il Calcio Femminile nelle Top 5"
+    logo: ""
+    css: ""
+---
+
+## In questa presentazione {.smaller}
+
+Quante donne giocano a calcio nelle cinque principali federazioni europee?
+Come sta crescendo questo numero, e chi lo sta guidando?
+
+In questa analisi confrontiamo **Francia, Germania, Spagna, Italia e Inghilterra**
+usando dati ufficiali di federazione (o, nel caso inglese, dati di indagine nazionale)
+dal 2013-14 al 2024-25.
+
+La struttura è la seguente:
+
+1. Il problema della misurazione: cinque paesi, cinque sistemi diversi
+2. Paese per paese: Germania, Inghilterra, Francia, Spagna, Italia
+3. Il confronto: cosa cambia quando mettiamo tutto insieme
+
+---
+
+# Parte 1 · Il problema della misurazione
+
+---
+
+## Cinque paesi, cinque sistemi diversi
+
+<!-- TABLE: one row per country -->
+<!-- Columns: Paese | Fonte | Cosa misura | Periodo disponibile -->
+
+| Paese      | Fonte               | Cosa misura                        |
+|------------|---------------------|------------------------------------|
+| Germania   | DFB Mitgliederstatistik | Membri di club federati (attivi e passivi) |
+| Francia    | INJEP               | Licenze di gioco                   |
+| Spagna     | RFEF Memoria Anual  | Licenze di gioco (calcio outdoor)  |
+| Italia     | FIGC ReportCalcio   | Tesserati (licenze di gioco)       |
+| Inghilterra | Sport England Active Lives | Stima da indagine campionaria |
+
+::: {.callout-note}
+Questi numeri **non sono direttamente confrontabili** tra loro.
+Un *Mitglied* tedesco non è la stessa cosa di una *licenciée* spagnola,
+e nessuno dei due è uguale a un partecipante stimato dall'indagine inglese.
+:::
+
+---
+
+## Perché non si possono confrontare i numeri in assoluto
+
+<!-- DIAGRAM or simple visual: show scale differences -->
+<!-- Germany ~7-8M total Mitglieder vs Spain ~1M licences vs England ~2M survey -->
+
+Il problema non è solo di definizione. È anche di **scala**:
+
+- Germania: circa **7-8 milioni** di Mitglieder totali
+- Francia: circa **2 milioni** di licenze
+- Spagna: circa **1 milione** di licenze (solo calcio outdoor)
+- Italia: circa **1,3 milioni** di tesserati
+- Inghilterra: circa **2 milioni** di partecipanti stimati
+
+Confrontare questi valori assoluti significherebbe confrontare mele con arance.
+La soluzione è guardare **la direzione e la velocità del cambiamento**,
+non il numero in sé.
+
+---
+
+## La soluzione: l'indice di crescita
+
+<!-- DIAGRAM: explain indexing visually -->
+<!-- Show concept: all start at 100, subsequent values show % change from base -->
+
+Settiamo il valore di ciascun paese a **100** nell'anno base.
+
+I valori successivi indicano quanto la partecipazione è cambiata
+rispetto a quel punto di partenza:
+
+- **150** = +50% rispetto all'anno base
+- **80** = -20% rispetto all'anno base
+
+In questo modo confrontiamo **la traiettoria di crescita**,
+non le dimensioni assolute di ciascun sistema.
+
+Questo approccio si chiama *indicizzazione* ed è lo strumento
+che useremo nella parte comparativa.
+
+---
+
+# Parte 2 · Paese per paese
+
+---
+
+# Germania {background-color="#e67e22"}
+
+---
+
+## Germania · La potenza storica
+
+<!-- CHART: img/germany_gender_trend.png -->
+<!-- Dual y-axis: male Mitglieder (left), female Mitglieder (right) -->
+<!-- Period: 2015-2025, COVID year shaded -->
+
+![](img/germany_gender_trend.png)
+
+- **~7-8 milioni** di Mitglieder totali: la federazione più grande d'Europa
+- Donne: circa **1,1 milioni** di membre
+- Due campionati mondiali femminili (2003, 2007), otto europei
+
+---
+
+## Germania · Il paradosso tedesco
+
+<!-- CHART: img/germany_female_segmented.png OR germany_its.png -->
+<!-- Show flat pre-COVID trend despite historical dominance -->
+
+**Prima del COVID (2015-2020): nessuna crescita.**
+
+Una federazione con la tradizione più forte d'Europa mostrava
+una base femminile *stagnante* per cinque anni consecutivi.
+
+**Dopo il 2022: accelerazione brusca.**
+
+L'indice ITS mostra un vero cambio di pendenza, non solo un rimbalzo.
+Il modello distingue tra recupero post-COVID (effetto temporaneo)
+e accelerazione strutturale (effetto duraturo): qui siamo nel secondo caso.
+
+::: {.callout-note}
+La domanda aperta: questa crescita è trainata dagli Euro 2022
+o da un cambiamento strutturale più profondo nella cultura calcistica tedesca?
+:::
+
+---
+
+# Inghilterra {background-color="#27ae60"}
+
+---
+
+## Inghilterra · Dati diversi, storia diversa
+
+<!-- CHART: img/england_gender_trend.png -->
+<!-- Note dashed line convention for survey data -->
+
+![](img/england_gender_trend.png)
+
+::: {.callout-important}
+**Attenzione metodologica.** I dati inglesi vengono da un'indagine campionaria,
+non da un registro federale. Misurano chi ha *giocato* almeno una volta
+nelle ultime 4 settimane, non chi ha una licenza attiva.
+La linea tratteggiata nei grafici comparativi ricorda questa differenza.
+:::
+
+Tre caveat importanti: cambio di soglia di partecipazione (2019),
+selezione dell'ondata d'indagine (novembre preferito), e
+**finestra temporale più corta**: solo dal 2018-19.
+
+---
+
+## Inghilterra · L'effetto Euro 2022
+
+<!-- CHART: img/england_female_segmented.png -->
+<!-- Show the spike in 2023-24 and partial consolidation in 2024-25 -->
+
+L'Inghilterra vince gli Europei femminili nel luglio 2022.
+L'effetto sulla partecipazione è **visibile e ritardato**:
+
+- 2021-22: 244.900 partecipanti (+46% sul trough COVID)
+- 2022-23: 231.600 (lieve calo)
+- 2023-24: **309.500** (picco)
+- 2024-25: 296.300 (consolidamento parziale)
+
+Questo schema -- picco seguito da stabilizzazione -- è tipico
+di uno *shock di visibilità*: un aumento reale e duraturo,
+ma che decelera una volta assorbito l'impulso iniziale.
+
+---
+
+# Francia {background-color="#3498db"}
+
+---
+
+## Francia · Crescita silenziosa e costante
+
+<!-- CHART: img/france_gender_trend.png -->
+
+![](img/france_gender_trend.png)
+
+La Francia è l'unico paese del gruppo a mostrare una crescita
+**lineare e ininterrotta** per tutto il periodo 2013-2022,
+senza picchi legati a singoli eventi.
+
+Il modello ITS conferma: la pendenza post-COVID è simile a quella pre-COVID.
+Non c'è stato uno shock di visibilità. C'è stato investimento federale strutturale.
+
+---
+
+## Francia · Chi guida la crescita?
+
+<!-- CHART: img/france_female_age.png -->
+<!-- Show youth vs adult share over time -->
+
+La crescita francese è **trainata dai giovani**:
+dal 2013-14 al 2022-23 la quota femminile *under* cresce
+dal 50% al 62% del totale delle licenze.
+
+Curiosità: il segmento maschile mostra un effetto composizione
+che maschera tendenze opposte per fascia d'età.
+La fascia adulta maschile è in declino lento;
+la fascia giovanile è stabile. Il totale sembra piatto.
+Questo è un esempio di come i dati aggregati possano ingannare.
+
+---
+
+# Spagna {background-color="#f1c40f"}
+
+---
+
+## Spagna · La rivoluzione
+
+<!-- CHART: img/spain_gender_trend.png -->
+
+![](img/spain_gender_trend.png)
+
+Da 31.000 licenze femminili nel 2013-14 a **80.000 nel 2022-23**:
+quasi triplicato in un decennio.
+
+Nota tecnica: la Spagna è l'unica federazione del gruppo
+a separare **calcio outdoor** e **futsal** nella fonte primaria.
+Tutti i confronti usano solo il calcio outdoor per omogeneità.
+
+---
+
+## Spagna · Una crescita giovane
+
+<!-- CHART: img/spain_female_age.png -->
+<!-- Show 78% youth share -->
+
+In Spagna il **78%** delle licenze femminili appartiene a categorie giovanili.
+In Francia il 62%. In Germania la crescita è invece guidata dalle adulte.
+
+Tre fasi distinte nella crescita spagnola:
+
+1. Prima accelerazione 2016-2022: professionalizzazione della Liga F
+2. Effetto Champions League: i titoli del Barcellona Femení
+3. Post-2022: Coppa del Mondo 2023 (appena fuori dalla finestra dei dati)
+
+La base adulta femminile resta sottile: ~18.000 licenze
+in un paese di 48 milioni di abitanti.
+
+---
+
+# Italia {background-color="#c0392b"}
+
+---
+
+## Italia · Crescita reale, base ancora piccola
+
+<!-- CHART: img/italy_gender_trend.png -->
+
+![](img/italy_gender_trend.png)
+
+L'Italia mostra la crescita relativa più rapida del periodo post-COVID
+tra i quattro paesi con dati di registro:
+
+- Pre-COVID: **+1.200** tesserati femminili per stagione (costante, R=0.97)
+- Post-COVID: **+7.800** per stagione (sei volte più rapido)
+
+Il lato maschile racconta una storia diversa:
+trend leggermente negativo pre-COVID, shock severo nel 2020-21 (-180.000),
+recupero rapido ma traiettoria futura ancora incerta.
+
+---
+
+## Italia · La pipeline: SGS vs dilettantistica
+
+<!-- CHART: img/italy_female_activity.png -->
+<!-- Show SGS growing, dilettantistica flat, crossover point -->
+
+Dietro la crescita aggregata, una struttura precisa:
+
+**SGS (settore giovanile):** da 7.634 nel 2013-14 a 27.865 nel 2022-23.
+Crescita di 3,6 volte in un decennio.
+Le due serie si incrociano tra il 2018-19 e il 2019-20:
+per la prima volta i giovani superano gli adulti.
+
+**Dilettantistica (adulte amatoriali):** sostanzialmente piatta per tutto il decennio.
+Tra 13.000 e 14.500 ogni anno, nessuna tendenza chiara.
+
+La domanda che i dati pongono ma non risolvono:
+le ragazze che entrano nell'SGS oggi si convertono in tesserate adulte,
+o smettono di giocare in modo organizzato?
+Le prossime edizioni del ReportCalcio daranno la risposta.
+
+---
+
+# Parte 3 · Il confronto
+
+---
+
+## Quattro federazioni: 2014-15 → 2022-23
+
+<!-- CHART: img/cross_country_index_tier1.png -->
+<!-- Indexed growth, base 2014-15, France/Germany/Italy/Spain -->
+
+![](img/cross_country_index_tier1.png)
+
+Quattro traiettorie distinte:
+
+- **Spagna:** indice 267. Quasi triplicata.
+- **Italia:** indice 191. Accelerazione forte, base piccola.
+- **Francia:** indice 189. Crescita costante e lineare.
+- **Germania:** indice 123. La più lenta, ma partiva già dalla vetta.
+
+---
+
+## Cinque federazioni: dal 2018-19
+
+<!-- CHART: img/cross_country_index_tier2.png -->
+<!-- All 5 countries, base 2018-19, England as dashed line -->
+
+![](img/cross_country_index_tier2.png)
+
+Con l'Inghilterra nel confronto (linea tratteggiata = dati da indagine):
+
+- Lo shock COVID inglese è il più profondo: -20% in una stagione.
+  I dati di registro degli altri paesi non scendono mai sotto il 97%.
+  Questo non significa che l'Inghilterra abbia sofferto di più.
+  Significa che le due metodologie rispondono diversamente allo stesso shock.
+- Spagna e Italia si muovono quasi in parallelo fino al 2021-22,
+  poi la Spagna accelera ulteriormente.
+- L'effetto Euro 2022 inglese è visibile e distinto: picco 2023-24, poi stabilizzazione.
+
+---
+
+## Normalizzando per popolazione
+
+<!-- TABLE: participation rates 2022-23 -->
+
+Esprimere la partecipazione femminile come **quota della popolazione femminile**
+cambia leggermente le proporzioni, non la storia.
+
+| Paese      | Tasso (%) | Variazione dal 2014-15 |
+|------------|-----------|------------------------|
+| Germania   | 2,78      | +0,44 pp               |
+| Francia    | 0,64      | +0,28 pp               |
+| Inghilterra | 0,67     | +0,24 pp (dal 2018-19) |
+| Spagna     | 0,32      | +0,20 pp               |
+| Italia     | 0,14      | +0,07 pp               |
+
+In Germania, circa **1 donna su 36** è iscritta a un club di calcio.
+In Italia, **1 su 700**.
+
+La distanza assoluta è reale e grande. La crescita relativa italiana è reale e rapida.
+Entrambe le cose sono vere contemporaneamente.
+
+---
+
+## Cosa ci dicono i dati -- e cosa no
+
+**Cosa ci dicono:**
+
+- In tutti e cinque i paesi la partecipazione femminile cresce
+  più rapidamente di quella maschile in termini relativi
+- La crescita è strutturale (Francia), trainata da eventi (Inghilterra, Germania),
+  o entrambe le cose (Spagna, Italia)
+- L'Italia sta crescendo dalla base più piccola, con la dinamica post-COVID
+  più rapida tra i paesi con dati di registro
+- Il motore italiano è il settore giovanile: la conversione in calcio adulto
+  è la domanda aperta
+
+**Cosa non ci dicono:**
+
+- Se questa crescita si tradurrà in un cambiamento culturale duraturo
+- Cosa succede alle ragazze italiane dopo l'SGS
+- Se i tassi di crescita post-2022 sono sostenibili oltre l'effetto visibilità
+
+Questa è un'analisi della partecipazione, non un verdetto sul calcio italiano.
+È un punto di partenza, non una conclusione.
+
+---
+
+## Per saperne di più
+
+Il notebook completo con dati, codice e metodologia è disponibile su:
+
+`github.com/pacoraggio/inpat-expat`
+
+Prossimi passi dell'analisi:
+
+- Presenze agli stadi (Serie A Femminile vs altri campionati)
+- Copertura mediatica: chi commenta le partite femminili?
+- Confronto con dati socioeconomici (popolazione, PIL, indici di genere)
