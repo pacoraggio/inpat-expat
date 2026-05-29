@@ -222,25 +222,12 @@ window.Quarto = {
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>sys.path.append(<span class="st">"./src"</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> analysis <span class="im">import</span> <span class="op">*</span></span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="93a84f1e" class="cell" data-execution_count="3">
+<div id="93a84f1e" class="cell" data-execution_count="38">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>italy_df <span class="op">=</span> pd.read_csv(<span class="st">"./data/processed/serie_a_final_standings.csv"</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>england_df <span class="op">=</span> pd.read_csv(<span class="st">"./data/processed/england_top_league_standings.csv"</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>germany_df <span class="op">=</span> pd.read_csv(<span class="st">"./data/processed/germany_bundesliga_standings.csv"</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>spain_df <span class="op">=</span> pd.read_csv(<span class="st">"./data/processed/spain_la_liga_standings.csv"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>france_df <span class="op">=</span> pd.read_csv(<span class="st">"./data/processed/france_ligue1_standings.csv"</span>)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(italy_df.shape)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(england_df.shape)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(germany_df.shape)</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(spain_df.shape)</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(france_df.shape)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>(1455, 14)
-(1691, 15)
-(1114, 15)
-(1464, 16)
-(1554, 16)</code></pre>
-</div>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>france_df <span class="op">=</span> pd.read_csv(<span class="st">"./data/processed/france_ligue1_standings.csv"</span>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>The last round of the 2025-26 Italian Serie A league has been an upsetting day for Juventus and AC Milan, two of the most celebrated and successful teams of the Italian league. The final standing saw Inter winning the league but it was the only team of the so-called “strisciate” to finish in the first four places of the table and so earning a spot for the 2026-27 Europe Champions League. Commentators were left asking themselves, how rare it was that only one of these teams finished in the top four spots in the final standing. I was curious as well, as most Italian football fans are, we see Juventus, Inter and Milan as a kind of gang for themselves: the self-appointed bosses of Serie A, or so fans of other clubs have always felt, owner of the Serie A (and their referees: fans are happy to think that if teams are so successful is because they also are helped by referees. And luck. And deities. And we can go on with the list).</p>
 <p>So I decided to have a look to Italian Serie A final standings in the last 80 years, from season 1946 onward, i.e.&nbsp;after the second world war, to see if this “felt” dominance is fact based or is another fan hallucination. But even if we will find this is not true, we can’t change our mind anyway: that’s the rule of every football fan.</p>
@@ -271,11 +258,11 @@ window.Quarto = {
 <p>“<em>It was the best of times (for Juventus, Inter and Milan fans), it was the worst of times (the others including me)</em>”</p>
 <p>It’s always best practice to start from the beginning, unless you are <a href="https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_America">Sergio Leone</a>, <a href="https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind">Michel Gondry</a>, <a href="https://en.wikipedia.org/wiki/Rashomon">Akira Kurosawa</a> or any other great artist who can masterfully manage the art of non linear narrative. Our first question was very clear and precise: “is it an anomaly that just one team, between Juventus, Inter and Milan, finished in the first top four spots at the end of the season?”. It’s well known that these three clubs represent the hegemonic powers in Italian Serie A having won 62 Serie A titles in the last 80 seasons, close to the <span class="math inline">\(80\%\)</span> of the overall number of scudetto, while the remaining 18 titles where split between 9 other clubs.</p>
 <div id="008e77d7" class="cell" data-execution_count="4">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(italy_df)[<span class="st">'Team'</span>]</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(italy_df)[<span class="st">'Team'</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="4">
 <div>
 
@@ -357,11 +344,11 @@ window.Quarto = {
 </div>
 <p>That’s really a tale of two cities: Torino and Milano. The first one amassed a total of 34 titles combining exactly the <span class="math inline">\(80\%\)</span> of the total, the latter trailing at 32, while other seven cities had to share 14 titles.</p>
 <div id="2e4c4d11" class="cell" data-execution_count="5">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(italy_df)[<span class="st">'City'</span>]</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'City'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(italy_df)[<span class="st">'City'</span>]</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'City'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="5">
 <div>
 
@@ -428,12 +415,12 @@ window.Quarto = {
 </div>
 <p>Just with these share numbers, the dominance is crystal clear. But what about the top 4 spots? Let’s build a table computing the results of the strisciate for each season after WWII.</p>
 <div id="0c58fab0" class="cell" data-execution_count="6">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>strisciate_df <span class="op">=</span> (compute_dominant_teams(italy_df, [<span class="st">'Juventus'</span>, <span class="st">'Inter Milan'</span>, <span class="st">'Milan'</span>])</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'number_of_dominant'</span>: <span class="st">'n. of strisciate'</span>, </span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>                  <span class="st">'dominant'</span>: <span class="st">'teams'</span>})</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>strisciate_df[:<span class="dv">5</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>strisciate_df <span class="op">=</span> (compute_dominant_teams(italy_df, [<span class="st">'Juventus'</span>, <span class="st">'Inter Milan'</span>, <span class="st">'Milan'</span>])</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'number_of_dominant'</span>: <span class="st">'n. of strisciate'</span>, </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>                  <span class="st">'dominant'</span>: <span class="st">'teams'</span>})</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>strisciate_df[:<span class="dv">5</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="6">
 <div>
 
@@ -499,15 +486,15 @@ window.Quarto = {
 <p>The table indicates that for season 1946/47, two of the striciate, Juventus and Milan, finished the season in the top 4, respectively second and fourth places while Inter was in tenth place. Juventus scored 53 points, Milan 50 and Inter Milan 36 (the order in which to read <code>positions</code> and <code>points</code> is <code>Juventus</code>, <code>Inter Milan</code> and <code>Milan</code> respectively). In season 1949/50, they topped the first three places with Juventus first, Inter Milan third, and Milan second place.</p>
 <p>Using the table we can compute a summary that will tell us in how many seasons all three clubs occupied one of the first four spots, which seasons two of them and, finally like this season, just one team finished in the first 4.</p>
 <div id="b24f0570" class="cell" data-execution_count="7">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>table_top_4_ita <span class="op">=</span> (strisciate_df</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a> .value_counts(<span class="st">"n. of strisciate"</span>)</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a> .sort_index(ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">"count"</span>: <span class="st">"total"</span>})</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a> .assign(pct<span class="op">=</span><span class="kw">lambda</span> x: (x[<span class="st">"total"</span>] <span class="op">/</span> x[<span class="st">"total"</span>].<span class="bu">sum</span>()).<span class="bu">round</span>(<span class="dv">3</span>))</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>table_top_4_ita</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>table_top_4_ita <span class="op">=</span> (strisciate_df</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a> .value_counts(<span class="st">"n. of strisciate"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a> .sort_index(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">"count"</span>: <span class="st">"total"</span>})</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a> .assign(pct<span class="op">=</span><span class="kw">lambda</span> x: (x[<span class="st">"total"</span>] <span class="op">/</span> x[<span class="st">"total"</span>].<span class="bu">sum</span>()).<span class="bu">round</span>(<span class="dv">3</span>))</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>table_top_4_ita</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
 <div>
 
@@ -549,7 +536,7 @@ window.Quarto = {
 <p>So, in just 15 seasons did only one <em>strisciata</em> finish in the top four, leaving the remaining two in a lower position. Less than <span class="math inline">\(20\%\)</span> of the total, less than 1 in 5 seasons. Can we agree it is a sign of dominance? By the way, in eighty seasons, Juventus missed just one Serie A season, Milan two. Yes, I like it when I remind it that it was for a fraud case (in the case of Juventus and one occurence for Milan).</p>
 <p>The following plot shows the temporal trend of the top 4 spot.</p>
 <div id="204a8f00" class="cell" data-execution_count="8">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(italy_df, [<span class="st">'Juventus'</span>, <span class="st">'Inter Milan'</span>, <span class="st">'Milan'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(italy_df, [<span class="st">'Juventus'</span>, <span class="st">'Inter Milan'</span>, <span class="st">'Milan'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -562,13 +549,13 @@ window.Quarto = {
 <p>So far we definitely find data supporting the dominance of the three clubs belonging the the strisciate, but what if we consider other teams that may be regarded as dominant? Not in terms of winning titles, of course, as we already saw how other clubs had to share very little success compared to the strisciate.</p>
 <p>A way to respond to the latter question, is to consider other teams and see if by changing the composition of three dominant teams, we see a higher or similar rate of top 4 spots occupancy with a different combinations.</p>
 <div id="9d5fcb26" class="cell" data-execution_count="9">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Juventus'</span>, <span class="st">'Inter Milan'</span>, <span class="st">'Milan'</span>, <span class="st">'Roma'</span>, <span class="st">'Fiorentina'</span>, <span class="st">'Lazio'</span>, <span class="st">'Napoli'</span>, <span class="st">'Torino'</span>]</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>(compute_dominant_combinations(italy_df, list_of_teams)</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a> .head(<span class="dv">7</span>)</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Juventus'</span>, <span class="st">'Inter Milan'</span>, <span class="st">'Milan'</span>, <span class="st">'Roma'</span>, <span class="st">'Fiorentina'</span>, <span class="st">'Lazio'</span>, <span class="st">'Napoli'</span>, <span class="st">'Torino'</span>]</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>(compute_dominant_combinations(italy_df, list_of_teams)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a> .head(<span class="dv">7</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="9">
 <div>
 
@@ -662,7 +649,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="english-premier-league-previously-known-as-first-division">English Premier League, previously known as First Division</h2>
 <p>As I admitted in the introduction, I don’t have a clear picture on my mind in terms of dominant teams in the England league. To find good candidates for the dominant team, let’s first see which teams participated in most, if not all, of the top league and the list of title winners with count of their titles.</p>
 <div id="7605ffbd" class="cell" data-execution_count="10">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>england_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>england_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="10">
 <div>
 
@@ -735,11 +722,11 @@ window.Quarto = {
 <p>Arsenal is the only team to play in the top English league from 1946 onward. After a <a href="https://en.wikipedia.org/wiki/1973%E2%80%9374_Manchester_United_F.C._season">troubled 1973-74 season, Manchester United was relegated in second division</a> so 1973-75 it’s their only missing in the top table. Other teams I considered “dominant”, like Liverpool, missed quite a number of top tier seasons.</p>
 <p>In terms of won titles we have the following table:</p>
 <div id="8c65c65d" class="cell" data-execution_count="11">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(england_df)[<span class="st">'Team'</span>]</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(england_df)[<span class="st">'Team'</span>]</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="11">
 <div>
 
@@ -847,11 +834,11 @@ window.Quarto = {
 <p>Which is strikingly different from Italy. 17 teams won at least one title, compared to 12 in Serie A, none of them were able to reach 20 total titles. Manchester United and Liverpool should be considered, at least at a first stage, as the strongest candidate for the hegemon clubs in England, but what about the third spot? Arsenal and Manchester City look the natural candidates, but, as we saw earlier, Arsenal is the only team not to have skipped a top tier league, while Manchester City spent 14 in the second division. So, at first, we will consider Manchester United, Liverpool and Arsenal as the corresponding <em>strisciate</em> for England. Not sure they will feel proud of the comparison.</p>
 <p>One last thing to compare with Italian case: which are the most successful cities?</p>
 <div id="cb78c958" class="cell" data-execution_count="12">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(england_df)[<span class="st">'City'</span>]</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'City'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(england_df)[<span class="st">'City'</span>]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'City'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="12">
 <div>
 
@@ -938,7 +925,7 @@ window.Quarto = {
 </div>
 <p>Again, quite a difference: if in Italy we had nine different cities winning the scudetto, in England the number of different cities is larger: 13. But like in Italy, the capital city is not the most successful one: London, with its nine million people living there, was able to top the league 17 times, sharing the number of titles with three teams: Arsenal, Chelsea and Tottenham. We also have to notice that in 80 seasons, 12 different teams were from London.</p>
 <div id="5b6f5f51" class="cell" data-execution_count="13">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>england_df[england_df[<span class="st">"City"</span>] <span class="op">==</span> <span class="st">"London"</span>][<span class="st">"Team"</span>].unique()</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>england_df[england_df[<span class="st">"City"</span>] <span class="op">==</span> <span class="st">"London"</span>][<span class="st">"Team"</span>].unique()</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="13">
 <pre><code>&lt;StringArray&gt;
 [            'Arsenal',             'Chelsea',   'Charlton Athletic',
@@ -950,14 +937,14 @@ Length: 12, dtype: str</code></pre>
 </div>
 <p>Going back to dominance, let’s define Manchester United, Liverpool and Arsenal as the dominant powers and see what we can infer.</p>
 <div id="4d8c8188" class="cell" data-execution_count="14">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>english_dominant_teams <span class="op">=</span> [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Arsenal'</span>]</span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>eng_dominant_df <span class="op">=</span> (compute_dominant_teams(england_df, english_dominant_teams)</span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'number_of_dominant'</span>: <span class="st">'n. of dominant'</span>, </span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>                  <span class="st">'dominant'</span>: <span class="st">'teams'</span>})</span>
-<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>eng_dominant_df[:<span class="dv">5</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>english_dominant_teams <span class="op">=</span> [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Arsenal'</span>]</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>eng_dominant_df <span class="op">=</span> (compute_dominant_teams(england_df, english_dominant_teams)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'number_of_dominant'</span>: <span class="st">'n. of dominant'</span>, </span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>                  <span class="st">'dominant'</span>: <span class="st">'teams'</span>})</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>eng_dominant_df[:<span class="dv">5</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="14">
 <div>
 
@@ -1022,14 +1009,14 @@ Length: 12, dtype: str</code></pre>
 </div>
 <p>I ordered the position and points as <code>Manchester United</code>, <code>Liverpool</code> and <code>Arsenal</code>, this mean that in 1946-47 season, Manchester finished second, Liverpool won the title and Arsenal finished 13th (but they were the winners the next season).</p>
 <div id="710e18ea" class="cell" data-execution_count="15">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>table_top_4_eng <span class="op">=</span> (eng_dominant_df</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a> .value_counts(<span class="st">"n. of dominant"</span>)</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a> .sort_index(ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">"count"</span>: <span class="st">"total"</span>})</span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a> .assign(pct<span class="op">=</span><span class="kw">lambda</span> x: (x[<span class="st">"total"</span>] <span class="op">/</span> x[<span class="st">"total"</span>].<span class="bu">sum</span>()).<span class="bu">round</span>(<span class="dv">3</span>))</span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>table_top_4_eng</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>table_top_4_eng <span class="op">=</span> (eng_dominant_df</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a> .value_counts(<span class="st">"n. of dominant"</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a> .sort_index(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">"count"</span>: <span class="st">"total"</span>})</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a> .assign(pct<span class="op">=</span><span class="kw">lambda</span> x: (x[<span class="st">"total"</span>] <span class="op">/</span> x[<span class="st">"total"</span>].<span class="bu">sum</span>()).<span class="bu">round</span>(<span class="dv">3</span>))</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>table_top_4_eng</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="15">
 <div>
 
@@ -1076,7 +1063,7 @@ Length: 12, dtype: str</code></pre>
 </div>
 <p>That is definitely a different picture with respect to Italian strisciate. In England, less than <span class="math inline">\(70\%\)</span> of the cases saw at least two of Manchester United, Liverpool and Arsenal in the top 4, compared to more than <span class="math inline">\(80\%\)</span> of the Italian case. Also worth noticing, the 7 seasons without any of them in the top spots. We are still waiting for this kind of open competition to come to Italian football.</p>
 <div id="c77a99b9" class="cell" data-execution_count="16">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Arsenal'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Arsenal'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1088,17 +1075,17 @@ Length: 12, dtype: str</code></pre>
 <p>And here is where the plot shows a significant insight. The reason why we have in mind the three teams as dominant reflects their performances starting from the 1980s onward. If in the season preceding 1980, before 1980, two of the three were rarely present in the top four simultaneously; after 1980 they hardly missed a season (although we see some missing season across 2015-16 and 2021-22)</p>
 <p>What about we change the dominant clubs definition? Let’s add more successful teams and see what happens.</p>
 <div id="a9425d3f" class="cell" data-execution_count="17">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Arsenal'</span>,</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Everton'</span>, <span class="st">'Tottenham Hotspur'</span>, <span class="st">'Chelsea'</span>, </span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Aston Villa'</span>, <span class="st">'Manchester City'</span>]</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>english_dominant_combinations <span class="op">=</span>(compute_dominant_combinations(england_df, list_of_teams)</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a> <span class="co">#.head(10)</span></span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>)<span class="co">#[['combination', '0_of_3' , '1_of_3', '2_of_3', '3_of_3', 'at_least_2_of_3_pct']]</span></span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>english_dominant_combinations.head(<span class="dv">10</span>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Arsenal'</span>,</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Everton'</span>, <span class="st">'Tottenham Hotspur'</span>, <span class="st">'Chelsea'</span>, </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Aston Villa'</span>, <span class="st">'Manchester City'</span>]</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>english_dominant_combinations <span class="op">=</span>(compute_dominant_combinations(england_df, list_of_teams)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a> <span class="co">#.head(10)</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>)<span class="co">#[['combination', '0_of_3' , '1_of_3', '2_of_3', '3_of_3', 'at_least_2_of_3_pct']]</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>english_dominant_combinations.head(<span class="dv">10</span>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="17">
 <div>
 
@@ -1213,7 +1200,7 @@ Length: 12, dtype: str</code></pre>
 </div>
 </div>
 <div id="7cfaf27d" class="cell" data-execution_count="18">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>english_dominant_combinations[english_dominant_combinations[<span class="st">'0_of_3'</span>] <span class="op">==</span> english_dominant_combinations[<span class="st">'0_of_3'</span>].<span class="bu">min</span>()]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>english_dominant_combinations[english_dominant_combinations[<span class="st">'0_of_3'</span>] <span class="op">==</span> english_dominant_combinations[<span class="st">'0_of_3'</span>].<span class="bu">min</span>()]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="18">
 <div>
 
@@ -1259,7 +1246,7 @@ Length: 12, dtype: str</code></pre>
 <p>From the above tables, we notice that if we switch Arsenal with Manchester City, the percentage of at least 2 teams out of three in the top for drops about the <span class="math inline">\(10\%\)</span>. The original triplet numbers looks more homogeneous in terms of consistency, having the highest rate of 3/3 and a low combination of 0/3 and 1/3.</p>
 <p>Just out of curiosity, I will produce two plots with different combinations just to see if we see some interesting pattern:</p>
 <div id="c0d88cd3" class="cell" data-execution_count="19">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Manchester City'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Manchester City'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1269,7 +1256,7 @@ Length: 12, dtype: str</code></pre>
 </div>
 </div>
 <div id="59ce8d25" class="cell" data-execution_count="20">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Tottenham Hotspur'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Manchester United'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Tottenham Hotspur'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1279,7 +1266,7 @@ Length: 12, dtype: str</code></pre>
 </div>
 </div>
 <div id="390e3056" class="cell" data-execution_count="21">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Arsenal'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Manchester City'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(england_df, [<span class="st">'Arsenal'</span>, <span class="st">'Liverpool'</span>, <span class="st">'Manchester City'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1295,11 +1282,11 @@ Length: 12, dtype: str</code></pre>
 <p>Ok, as for the Spanish La Liga I am just curious to see how strong is the dominance of the two main teams, Barcelona and Real Madrid. I am not expecting any surprise.</p>
 <p>Let’s first have a look to the list of title winners.</p>
 <div id="f5b306f4" class="cell" data-execution_count="22">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(spain_df)[<span class="st">'Team'</span>]</span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(spain_df)[<span class="st">'Team'</span>]</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="22">
 <div>
 
@@ -1356,22 +1343,22 @@ Length: 12, dtype: str</code></pre>
 </div>
 <p>Only 7 clubs managed to win La Liga from 1946-47 season, with 70 out of 80 titles (<span class="math inline">\(87.5\%\)</span>) shared between Real Madrid, Barcelona and Atletico Madrid. That’s what the definiton of dominance looks like.</p>
 <div id="5f8bb946" class="cell" data-execution_count="23">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>spanish_dominant_teams <span class="op">=</span> [<span class="st">'Real Madrid'</span>, <span class="st">'Barcelona'</span>, <span class="st">'Atlético Madrid'</span>]</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>esp_dominant_df <span class="op">=</span> (compute_dominant_teams(spain_df, spanish_dominant_teams)</span>
-<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'number_of_dominant'</span>: <span class="st">'n. of dominant'</span>, </span>
-<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>                  <span class="st">'dominant'</span>: <span class="st">'teams'</span>})</span>
-<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>table_top_4_esp <span class="op">=</span> (esp_dominant_df</span>
-<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a> .value_counts(<span class="st">"n. of dominant"</span>)</span>
-<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a> .sort_index(ascending<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">"count"</span>: <span class="st">"total"</span>})</span>
-<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a> .assign(pct<span class="op">=</span><span class="kw">lambda</span> x: (x[<span class="st">"total"</span>] <span class="op">/</span> x[<span class="st">"total"</span>].<span class="bu">sum</span>()).<span class="bu">round</span>(<span class="dv">3</span>))</span>
-<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>table_top_4_esp</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>spanish_dominant_teams <span class="op">=</span> [<span class="st">'Real Madrid'</span>, <span class="st">'Barcelona'</span>, <span class="st">'Atlético Madrid'</span>]</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>esp_dominant_df <span class="op">=</span> (compute_dominant_teams(spain_df, spanish_dominant_teams)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'number_of_dominant'</span>: <span class="st">'n. of dominant'</span>, </span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>                  <span class="st">'dominant'</span>: <span class="st">'teams'</span>})</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>table_top_4_esp <span class="op">=</span> (esp_dominant_df</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a> .value_counts(<span class="st">"n. of dominant"</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a> .sort_index(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">"count"</span>: <span class="st">"total"</span>})</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a> .assign(pct<span class="op">=</span><span class="kw">lambda</span> x: (x[<span class="st">"total"</span>] <span class="op">/</span> x[<span class="st">"total"</span>].<span class="bu">sum</span>()).<span class="bu">round</span>(<span class="dv">3</span>))</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>table_top_4_esp</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="23">
 <div>
 
@@ -1413,7 +1400,7 @@ Length: 12, dtype: str</code></pre>
 <p>No contest: the three teams top the first four spots in more than <span class="math inline">\(90\%\)</span> of the cases. This will be a very boring plot.</p>
 <p>Just for the record, season 1999/2000 was an epic season, with Deportivo La Coruña winning their only title with 5 points clear to Barcelona, Real Madrid finishing fifth and Atletico relegated in second division. Season 2002/03 Real Madrid went on winning La Liga but Barcelona fell in the 6th position while Atletico arrived 12th. And that’s it.</p>
 <div id="741df81f" class="cell" data-execution_count="24">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>spain_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>spain_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="24">
 <div>
 
@@ -1490,7 +1477,7 @@ Length: 12, dtype: str</code></pre>
 <p>If for other leagues we picked up three teams (Spain has been a little of a stretch, we could pick up two teams), I am expecting to see just one club: Bayern Munich!</p>
 <p>Just to create unnecessary suspance, let’s first see the club participation and remind you that for Germany we have less seasons to consider.</p>
 <div id="1eb5e2ae" class="cell" data-execution_count="25">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>germany_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>germany_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="25">
 <div>
 
@@ -1563,11 +1550,11 @@ Length: 12, dtype: str</code></pre>
 <p>Werder Bremen where, aside Bayern Munich, the only club not to go down from the top in the last 60 seasons (btw, I know that Hamburger SV were the latest club to ever been relegated about five years ago).</p>
 <p>Let’s count the titles, now.</p>
 <div id="c39bc03f" class="cell" data-execution_count="26">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(germany_df)[<span class="st">'Team'</span>]</span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(germany_df)[<span class="st">'Team'</span>]</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="26">
 <div>
 
@@ -1655,7 +1642,7 @@ Length: 12, dtype: str</code></pre>
 <p>The split is clear: there is Bayern Munich and then the rest of the Bundesliga. Over the <span class="math inline">\(50\%\)</span> of the titles won. Once we include Bayern in the top three teams, results are automatically shifted upwards and could be difficult to understand, aside that club, who to consider dominant in German Bundesliga.</p>
 <p>By the way, if we plot Bayern alone we will notice that only 9 times the club did not get into the top 4 spots. And they constantly succeed in doing it from 1994/95 season.</p>
 <div id="7646c6ee" class="cell" data-execution_count="27">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(germany_df, [<span class="st">'Bayern Munich'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(germany_df, [<span class="st">'Bayern Munich'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1665,16 +1652,16 @@ Length: 12, dtype: str</code></pre>
 </div>
 </div>
 <div id="9d11c3d7" class="cell" data-execution_count="28">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Bayern Munich'</span>, <span class="st">'Borussia Mönchengladbach'</span>, <span class="st">'Borussia Dortmund'</span>, </span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Werder Bremen'</span>, <span class="st">'Hamburger SV'</span>, <span class="st">'VfB Stuttgart'</span>]</span>
-<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>german_dominant_combinations <span class="op">=</span>(compute_dominant_combinations(germany_df, list_of_teams)</span>
-<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
-<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a> <span class="co">#.head(10)</span></span>
-<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>)<span class="co">#[['combination', '0_of_3' , '1_of_3', '2_of_3', '3_of_3', 'at_least_2_of_3_pct']]</span></span>
-<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>german_dominant_combinations.head(<span class="dv">10</span>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Bayern Munich'</span>, <span class="st">'Borussia Mönchengladbach'</span>, <span class="st">'Borussia Dortmund'</span>, </span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Werder Bremen'</span>, <span class="st">'Hamburger SV'</span>, <span class="st">'VfB Stuttgart'</span>]</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>german_dominant_combinations <span class="op">=</span>(compute_dominant_combinations(germany_df, list_of_teams)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a> <span class="co">#.head(10)</span></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>)<span class="co">#[['combination', '0_of_3' , '1_of_3', '2_of_3', '3_of_3', 'at_least_2_of_3_pct']]</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>german_dominant_combinations.head(<span class="dv">10</span>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="28">
 <div>
 
@@ -1791,7 +1778,7 @@ Length: 12, dtype: str</code></pre>
 <p>As expected, there is very little variation if we swap clubs a part for Bayern Munich, with possible the triplet <code>Bayern Munich</code>, <code>Borussia Dortmund</code>,<code>Werder Bremen</code> the one with better performances.</p>
 <p>What is worth noticing is that, apart from Bayern Munich, it’s not possible to define three teams dominating the German league, as there is a lot of variability in the remaining Bayern’s competitors, as it looks like they change over years. It’s striking to see the difference with Italy and Spain, where the three top clubs where <span class="math inline">\(80\%\)</span> successful in occupaying at least 2 spots in the first 4 places while in Germany they just account a little bit more than <span class="math inline">\(60\%\)</span>. If England genuinely showed great variety during the last 80 years with no dominant club, in Germany there is one dominant team and then the other clubs change in being the challengers.</p>
 <div id="2d60e94f" class="cell" data-execution_count="29">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(germany_df, [<span class="st">'Bayern Munich'</span>, <span class="st">'Borussia Dortmund'</span>, <span class="st">'Werder Bremen'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(germany_df, [<span class="st">'Bayern Munich'</span>, <span class="st">'Borussia Dortmund'</span>, <span class="st">'Werder Bremen'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1802,7 +1789,7 @@ Length: 12, dtype: str</code></pre>
 </div>
 <p>Pushed probably by Borussia Dortmund, who lately rised as one of Bayern long standing rivals, the triplet <code>Bayern Munich</code>, <code>Borussia Dortmund</code>, <code>Werder Bremen</code> showed good performances starting from year 2000.</p>
 <div id="bae384cb" class="cell" data-execution_count="30">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(germany_df, [<span class="st">'Bayern Munich'</span>, <span class="st">'Hamburger SV'</span>, <span class="st">'Werder Bremen'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(germany_df, [<span class="st">'Bayern Munich'</span>, <span class="st">'Hamburger SV'</span>, <span class="st">'Werder Bremen'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1818,7 +1805,7 @@ Length: 12, dtype: str</code></pre>
 <p>The last league we look at is the French one, for which I don’t have the slightest idea who to consider the dominant clubs, so I will let the data decide.</p>
 <p>We start considering the participation for each team.</p>
 <div id="fe51bc5c" class="cell" data-execution_count="31">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>france_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>france_df[<span class="st">'Team'</span>].value_counts().reset_index().rename(columns <span class="op">=</span> {<span class="st">'count'</span>: <span class="st">'n. of appearances'</span>})[:<span class="dv">10</span>]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="31">
 <div>
 
@@ -1891,11 +1878,11 @@ Length: 12, dtype: str</code></pre>
 <p>That’s something totally new for what we have seen so far: no team succeeded in participating to all Ligue 1 seasons with Marseille, Saint-Étienne and Bordeaux the ones with more competitions. Paris SG is not even in the top 10, which might be surprising for those ignoring that PSG became successful only very recently.</p>
 <p>We now count the titles won by each team.</p>
 <div id="244993f2" class="cell" data-execution_count="32">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(france_df)[<span class="st">'Team'</span>]</span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
-<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>(compute_league_winners(france_df)[<span class="st">'Team'</span>]</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a> .value_counts()</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a> .reset_index()</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a> .rename(columns<span class="op">=</span>{<span class="st">'index'</span>: <span class="st">'Team'</span>, <span class="st">'count'</span>: <span class="st">'Titles'</span>})</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="32">
 <div>
 
@@ -1992,9 +1979,9 @@ Length: 12, dtype: str</code></pre>
 </div>
 <p>France looks definitely the least dominated League of the bunch. 15 different teams winning at least one title, only England with more clubs, and no clear cluster of dominant teams.</p>
 <div id="9b9e42ab" class="cell" data-execution_count="33">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>france_winners <span class="op">=</span> compute_league_winners(france_df)</span>
-<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>psg <span class="op">=</span> france_winners[france_winners[<span class="st">'Team'</span>] <span class="op">==</span> <span class="st">'Paris Saint-Germain'</span>]</span>
-<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>psg[<span class="st">'season'</span>].unique()</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>france_winners <span class="op">=</span> compute_league_winners(france_df)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>psg <span class="op">=</span> france_winners[france_winners[<span class="st">'Team'</span>] <span class="op">==</span> <span class="st">'Paris Saint-Germain'</span>]</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>psg[<span class="st">'season'</span>].unique()</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="33">
 <pre><code>&lt;StringArray&gt;
 ['1985/86', '1993/94', '2012/13', '2013/14', '2014/15', '2015/16', '2017/18',
@@ -2003,7 +1990,7 @@ Length: 14, dtype: str</code></pre>
 </div>
 </div>
 <div id="0bd4162b" class="cell" data-execution_count="34">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(france_df, [<span class="st">'Paris Saint-Germain'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(france_df, [<span class="st">'Paris Saint-Germain'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -2014,17 +2001,17 @@ Length: 14, dtype: str</code></pre>
 </div>
 <p>The first PSG title goes back to 1985/86 season and, before 1982/83 season, they were not able to reach the first 4 spots at all. But 12 out of 14 titles where won in the latest 15 years. As PSG is now considered the dominant team, we can’t say it’s true during the last 80 years.</p>
 <div id="5e8e5602" class="cell" data-execution_count="35">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Paris Saint-Germain'</span>,<span class="st">'Saint-Étienne'</span>, </span>
-<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Marseille'</span>,<span class="st">'Monaco'</span>,<span class="st">'Nantes'</span>,</span>
-<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Lyon'</span>, <span class="st">'Reims'</span>, <span class="st">'Bordeaux'</span>]</span>
-<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>french_dominant_combinations <span class="op">=</span>(compute_dominant_combinations(france_df, list_of_teams)</span>
-<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
-<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a> <span class="co">#.head(10)</span></span>
-<span id="cb38-8"><a href="#cb38-8" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb38-9"><a href="#cb38-9" aria-hidden="true" tabindex="-1"></a>)<span class="co">#[['combination', '0_of_3' , '1_of_3', '2_of_3', '3_of_3', 'at_least_2_of_3_pct']]</span></span>
-<span id="cb38-10"><a href="#cb38-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb38-11"><a href="#cb38-11" aria-hidden="true" tabindex="-1"></a>french_dominant_combinations.head(<span class="dv">10</span>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>list_of_teams <span class="op">=</span> [<span class="st">'Paris Saint-Germain'</span>,<span class="st">'Saint-Étienne'</span>, </span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Marseille'</span>,<span class="st">'Monaco'</span>,<span class="st">'Nantes'</span>,</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>                 <span class="st">'Lyon'</span>, <span class="st">'Reims'</span>, <span class="st">'Bordeaux'</span>]</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>french_dominant_combinations <span class="op">=</span>(compute_dominant_combinations(france_df, list_of_teams)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a> .sort_values(<span class="st">'at_least_2_of_3_pct'</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a> <span class="co">#.head(10)</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a> .reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>)<span class="co">#[['combination', '0_of_3' , '1_of_3', '2_of_3', '3_of_3', 'at_least_2_of_3_pct']]</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>french_dominant_combinations.head(<span class="dv">10</span>)[[<span class="st">'combination'</span>, <span class="st">'0_of_3'</span> , <span class="st">'1_of_3'</span>, <span class="st">'2_of_3'</span>, <span class="st">'3_of_3'</span>, <span class="st">'at_least_2_of_3_pct'</span>]]</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="35">
 <div>
 
@@ -2141,7 +2128,7 @@ Length: 14, dtype: str</code></pre>
 <p>The table clearly indicate how it’s difficult to find three hegemon clubs in France football.</p>
 <p>Let’s plot, for example, the triplets consisting of <code>Paris Saint-Germain</code>, <code>Marseille</code>, and <code>Lyon</code> and compare to <code>Saint-Étienne</code>, <code>Marseille</code>, and <code>Monaco</code>.</p>
 <div id="4a070826" class="cell" data-execution_count="36">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(france_df, [<span class="st">'Paris Saint-Germain'</span>, <span class="st">'Marseille'</span>, <span class="st">'Monaco'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(france_df, [<span class="st">'Paris Saint-Germain'</span>, <span class="st">'Marseille'</span>, <span class="st">'Monaco'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -2151,7 +2138,7 @@ Length: 14, dtype: str</code></pre>
 </div>
 </div>
 <div id="f4c8b292" class="cell" data-execution_count="37">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(france_df, [<span class="st">'Marseille'</span>, <span class="st">'Saint-Étienne'</span>, <span class="st">'Monaco'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>plot_dominant_teams(compute_dominant_teams(france_df, [<span class="st">'Marseille'</span>, <span class="st">'Saint-Étienne'</span>, <span class="st">'Monaco'</span>]))</span></code></pre></div><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
